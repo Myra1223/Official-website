@@ -1,92 +1,161 @@
 @charset "utf-8";
-.menu {
-    height: 100px;
-    background-color: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-color: red;
-    border-width: 3px;
-}
-
-
-.menubtn {
-    position:absolute;
-    bottom: 5%;
-    right: 5%;
-    font-size: 18px;
+.smalltop{
+    color:#fff;
     font-family: 'Lato', sans-serif;
-    
-}
-
-.naverbabtn {
-    position: relative;
-    float: top right;
-    padding: 13px 10px;
-    margin-top: 50px;
-    margin-right:15px;
-    border:1px solid;
-    border-radius:4px;
-    color:red;
-}
-
-.centerimage{
-    top:130px;
+    letter-spacing: 2px;
 }
 
 .indeximage{
       margin:auto;
 }
 
-.indexmd{
+.indexin{
+    background-image: url(/images/indexdescription.jpg);
+    height:500px;
+    background-color: #f8003d;
+    
+}
+
+.indexinin{
+    padding-top:150px;
+    padding-right:30px;
+    padding-left:30px;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px; 
+    line-height: 36px;
+    
+}
+.indexininxs{
+    padding-top:60px;
+    padding-right:30px;
+    padding-left:30px;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px; 
+    line-height: 36px;
+    
+}
+.indexformula{
     transition: .3s;
+    border-bottom-style:solid;
+    border-bottom-color: #f8003d;
 }
-.indexmd:hover{
-    opacity:0.5 ;
-    
+.indexformula:hover{
+    opacity:0.5 ;    
 }
-
-.indexsl{
-    
-    font-family: 'Lato', sans-serif;
-    font-size: 36px;
-    text-align:center;
-    color:red;
-    letter-spacing: 3px;
-    
-}
-
-
-.indexfooter{
-    
-    background:linear-gradient(to right, #FF7500, #F8003D, #F93677)
-    
-}
-.indexfooter_left{
-    color:white;
-    font-family: 'Lato', sans-serif;
-    font-family: Microsoft JhengHei;
-    font-size:18px;
-    letter-spacing: 3px;
-    text-align:center;
-}
-.indexfooter_md{
-    color:white;
-    font-family: 'Lato', sans-serif;
-    font-family: Microsoft JhengHei;
-    font-size:14px;
-    letter-spacing:2px;
-    text-align:center;
-}
-
-.indexfooter_word{
+.indexformulaword{
+     padding-top:50px;
+    padding-right:30px;
+    padding-left:30px;
     color:black;
     font-family: 'Lato', sans-serif;
-    font-family: Microsoft JhengHei;
-    font-size:14px;
-    font-weight:900;
-    letter-spacing: 2px;
-    text-align:center;
+    font-size:18px;
+    letter-spacing: 1px; 
+    line-height: 24px;
 }
 
+.indexformulawordsx{
+    padding-top:10px;
+    padding-bottom: 10px;
+    color:black;
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    letter-spacing: 1px; 
+    line-height: 16px;
+    
+    
+}
+
+.indexpacking{
+    transition: .3s;
+    border-bottom-style:solid;
+    border-bottom-color: #f8003d;
+}
+.indexpacking:hover{
+    opacity:0.5 ;    
+}
+
+.indexnewsb{
+    color:white;
+    text-align:center;
+    background-color: #f8003d;
+}
+
+.indexnews{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-style:solid;
+    border-bottom-color: #f8003d;
+    border-right: solid #f8003d 1px;
+    border-left: solid #f8003d 1px;
+    
+}
+
+.indexslogan{
+    padding-top:230px;
+    padding-bottom: 150px;
+    font-family: 'Spectral', serif;
+    font-size: 40px;
+    text-align:center;
+    color:#f8003d;
+    letter-spacing: 2px;
+    line-height: 18px;
+    white-space:nowrap;
+     background-image: url(/images/indexslogan.jpg);
+    height:439px;
+}
+.indexsloganxs{
+    padding-top:80px;
+    padding-bottom: 80px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 12px;
+    color:#f8003d;
+    text-align:center;
+    white-space:nowrap;
+
+}
+
+.backtotop{
+    padding-top:3px;
+    padding-bottom:3px;
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    background-color: #f8003d;
+}
+
+.indexfooter{
+    background:linear-gradient(#FF7500, #F8003D, #F93677)
+    
+}
+.indexfootername{
+    padding-top:15px;
+    padding-bottom:15px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-family: Microsoft JhengHei;
+    letter-spacing: 2px;
+}
+.indexfooternamexs{
+    padding-top:15px;
+    padding-bottom:15px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-family: Microsoft JhengHei;
+    letter-spacing: 2px;
+    border-bottom:solid;
+    border-width: thin;
+}
+.indexfooterinfo{
+    padding-top:10px;
+    padding-bottom:15px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    
+}
 
 .aboutleft{
     color:red
@@ -96,11 +165,7 @@
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
 }
-.aboutwordh1c{
-    color:red;
-    font-family: Microsoft JhengHei;
-    letter-spacing: 1px;
-}
+
 .aboutimage{
     margin:auto;
 }
@@ -108,6 +173,7 @@
 .aboutinner{
     font-family: 'Lato', sans-serif;
     letter-spacing:1px;
+    line-height: 30px;
     
 }
 .aboutinnerc{
@@ -115,25 +181,177 @@
     letter-spacing:1px;
     
 }
-
-.PRinner{
-    color:red;
+.serviceQA{
+    font-family: 'Lato', sans-serif;
+    background-color: #fe6805;
+    color:white;
     letter-spacing:1px;
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
 }
-
-.SPword{
-    font-family: Microsoft JhengHei;
-    line-height: 28px;
-}
-
-.FOword{
-    height: 60px;
-    letter-spacing: 1px;
-    color:red;
-    font-size:18px;
-    font-weight:500;
+.serviceQAsmall{
+    font-family: 'Lato', sans-serif;
+    background-color: #f1825c;
+    color:white;
+    letter-spacing:1px;
+    line-height:18px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .FOh3{
+    font-family: 'Lato', sans-serif;
+    color:#f8003d;
+}
+
+.contactslogan{
+    padding-top:100px;
+    padding-bottom: 20px;
+    font-family: 'Spectral', serif;
+    font-size: 40px;
+    text-align:center;
+    color:#f8003d;
+    letter-spacing: 2px;
+    line-height: 18px;
+    white-space:nowrap;
+    height:200px;
+}
+.contactsloganxs{
+    padding-top:80px;
+    padding-bottom: 80px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 12px;
+    color:#f8003d;
+    text-align:center;
+    white-space:nowrap;
+
+}
+
+.twindexinin{
+    padding-top:150px;
+    padding-right:30px;
+    padding-left:30px;
+    color:#fff;
+    font-family: Microsoft JhengHei;
+    letter-spacing: 2px; 
+    line-height: 36px;
+    
+}
+.twindexininxs{
+    padding-top:60px;
+    padding-right:30px;
+    padding-left:30px;
+    color:#fff;
+    font-family: Microsoft JhengHei;
+    letter-spacing: 2px; 
+    line-height: 36px; }
+    
+.twindexformulaword{
+     padding-top:50px;
+    padding-right:30px;
+    padding-left:30px;
+    color:black;
+   font-family: Microsoft JhengHei;
+    font-size:18px;
+    letter-spacing: 1px; 
+    line-height: 24px;
+}
+
+.twindexformulawordsx{
+    padding-top:10px;
+    padding-bottom: 10px;
+    color:black;
+    font-family: Microsoft JhengHei;
+    font-size:14px;
+    letter-spacing: 1px; 
+    line-height: 16px;
+}
+
+.twindexnewsb{
+    color:white;
+    text-align:center;
+    background-color: #f8003d;
+    font-family: Microsoft JhengHei;
+}
+
+.twindexnews{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family: Microsoft JhengHei;
+    border-bottom-style:solid;
+    border-bottom-color: #f8003d;
+    border-right: solid #f8003d 1px;
+    border-left: solid #f8003d 1px;
+    
+}
+
+.twindexfootername{
+    padding-top:15px;
+    padding-bottom:15px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-family: Microsoft JhengHei;
+    letter-spacing: 2px;
+}
+.twindexfooternamexs{
+    padding-top:15px;
+    padding-bottom:15px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-family: Microsoft JhengHei;
+    letter-spacing: 2px;
+    border-bottom:solid;
+    border-width: thin;
+}
+.twindexfooterinfo{
+    padding-top:10px;
+    padding-bottom:15px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+.twaboutwordh1{
     color:red;
+    font-family: Microsoft JhengHei;
+    letter-spacing: 1px;
+}
+
+.twaboutinner{
+    font-family: Microsoft JhengHei;
+    letter-spacing:1px;
+    line-height: 30px;
+    
+}
+.twserviceQA{
+   font-family: Microsoft JhengHei;
+    background-color: #fe6805;
+    color:white;
+    letter-spacing:1px;
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+}
+.twserviceQAsmall{
+    font-family: Microsoft JhengHei;
+    background-color: #f1825c;
+    color:white;
+    letter-spacing:1px;
+    line-height:18px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.twFOh3{
+    font-family: Microsoft JhengHei;
+    color:#f8003d;
 }
